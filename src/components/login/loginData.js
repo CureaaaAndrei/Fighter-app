@@ -7,4 +7,3 @@ export const loginData = [
     { username: 'mircaru', password: '123asd' },
     { username: 'mirandu', password: '123asd' },
   ];
-  
