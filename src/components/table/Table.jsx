@@ -31,7 +31,7 @@ export default function BasicTable() {
     <h1 className='title'>About Fighters</h1>
   </div>
   
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',  marginTop: '90px' }}>
+    <div className='table-container' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',  marginTop: '90px' }}>
  
       <TableContainer component={Paper} sx={{padding: '1.5px',  width: '84%', backgroundColor:'blue'}}>
         <Table sx={{ minWidth: 650}} aria-label="simple table">

@@ -85,3 +85,14 @@ p {
     background: transparent;
     color: #fafbff;
 }
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+    
+    .card-image {
+        height: auto;
+    }
+}
